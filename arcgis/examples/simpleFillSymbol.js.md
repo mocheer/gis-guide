@@ -1,3 +1,5 @@
+// 唯一值渲染示例
+
 var featureLayer = new esri.layers.FeatureLayer("http://localhost:6080/arcgis/rest/services/JsMap/MapServer/9", {
     mode: esri.layers.FeatureLayer.MODE_ONDEMAND,
     outFields: ["*"]
