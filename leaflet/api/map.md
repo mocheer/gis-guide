@@ -15,7 +15,7 @@
 |minZoom|Number|null|地图的最小视图。可以重写地图图层的minZoom.|
 |maxZoom|Number|null|地图的最大视图。可以重写地图图层的maxZoom.|
 |maxBounds|LatLngBounds|null|当这个选项被设置后，地图被限制在给定的地理边界内，当用户平移将地图拖动到视图以外的范围时会出现弹回的效果，并且也不允许缩小视图到给定范围以外的区域（这取决于地图的尺寸）。使用setMaxBounds方法可以动态地设置这种约束.|
-crs|CRS|L.CRS.EPSG3857|使用的坐标系|
+|crs|CRS|L.CRS.EPSG3857|使用的坐标系|
 
 ##  Interaction options
 |选项|类型|默认值|描述|
@@ -25,20 +25,18 @@ crs|CRS|L.CRS.EPSG3857|使用的坐标系|
 |scrollWheelZoom|Boolean|true|决定地图是否被被鼠标滚轮滚动缩放.|
 |doubleClickZoom|Boolean|true|决定地图是否可被双击缩放.|
 |boxZoom|Boolean|true|决定地图是否可被缩放到鼠标拖拽出的矩形的视图，鼠标拖拽时需要同时按住shift键.|
-|tap|Boolean|true|Enables|mobile|hacks|for|supporting|instant|taps|(fixing|200ms|click|delay|on|iOS/Android)|and|touch|holds|(fired|as|contextmenu|events).|
-|tapTolerance|Number|15|The|max|number|of|pixels|a|user|can|shift|his|finger|during|touch|for|it|to|be|considered|a|valid|tap.|
+|tap|Boolean|true|Enables mobile hacks for supporting instant taps (fixing 200ms click delay on iOS/Android) and touch holds (fired as contextmenu events). |
+|tapTolerance|Number|15|The max number of pixels a user can shift his finger during touch for it to be considered a valid tap. |
 |trackResize|Boolean|true|确定地图在窗口尺寸改变时是否可以自动处理浏览器以更新视图.|
 |worldCopyJump|Boolean|false|当这个选项可用时，当你平移地图到其另一个领域时会被地图捕获到，并无缝地跳转到原始的领域以保证所有标注、矢量图层之类的覆盖物仍然可见.|
-|closePopupOnClick|Boolean|true|当你不想用户点击地图关闭消息弹出框时，请将其设置为false|.|
+|closePopupOnClick|Boolean|true|当你不想用户点击地图关闭消息弹出框时，请将其设置为false.|
 
 ##  Keyboard Navigation Options
 |选项|类型|默认值|描述|
 |----|---|----|----|
 |keyboard|Boolean|true|聚焦到地图且允许用户通过键盘的方向键和+/-键来漫游地图.|
 |keyboardPanOffset|Number|80|确定按键盘方向键时地图平移的像素.|
-|keyboardZoomOffset|Number|1|确定键盘+|or|-键对于的缩放级数.|
-
-
+|keyboardZoomOffset|Number|1|确定键盘 + or - 键对于的缩放级数.|
 
 ## Panning Inertia Options
 |选项|类型|默认值|描述|
@@ -52,15 +50,15 @@ crs|CRS|L.CRS.EPSG3857|使用的坐标系|
 ##  Control options
 |选项|类型|默认值|描述|
 |----|---|----|----|
-|zoomControl|Boolean|true|确定zoom|control是否默认加载在地图上|.|
-|attributionControl|Boolean|true|确定attribution|control是否默认加载在地图上.|
+|zoomControl|Boolean|true|确定zoom|control是否默认加载在地图上.|
+|attributionControl|Boolean|true|确定attribution control是否默认加载在地图上.|
 
 ##  Animation options
 |选项|类型|默认值|描述|
 |----|---|----|----|
 |fadeAnimation|Boolean|depends|确定瓦片淡出动画是否可用。通常默认在所有浏览器中都支持CSS3转场，android例外.|
 |zoomAnimation|Boolean|depends|确定瓦片缩放动画是否可用。通常默认在所有浏览器中都支持CSS3转场，android例外.|
-|zoomAnimationThreshold|Number|4|Won't|animate|zoom|if|the|zoom|difference|exceeds|this|value.|
+|zoomAnimationThreshold|Number|4|不会播放缩放动画当zoom超过最大值|
 |markerZoomAnimation|Boolean|depends|确定注记的缩放是否随地图缩放动画而播放，如果被禁用，注记在动画中拉长时会消失。通常默认在所有浏览器中都支持CSS3转场，android例外.|
 
 ##   Events（事件）
@@ -78,7 +76,7 @@ crs|CRS|L.CRS.EPSG3857|使用的坐标系|
 |blur|Event|当地图失去焦点时触发.|
 |preclick|MouseEvent|当鼠标在地图上点击之前触发。有时会在点击鼠标时，并在已存在的点击事件开始处理之前想要某件事情发生时用得到.|
 |load|Event|当地图初始化时触发。（当地图的中心点和缩放初次设置时）.|
-|unload|Event|Fired|when|the|map|is|destroyed|with|remove|method.|
+|unload|Event|当地图通过remove方法销毁时触发.|
 |viewreset|Event|当地图需要重绘内容时触发。（通常在地图缩放和载入时发生）这对于创建用户自定义的叠置图层非常有用.|
 |movestart|Event|地图视图开始改变时触发。（比如用户开始拖动地图）.|
 |move|Event|所有的地图视图移动时触发.|
@@ -88,14 +86,14 @@ crs|CRS|L.CRS.EPSG3857|使用的坐标系|
 |dragend|Event|用户停止拖动时触发.|
 |zoomstart|Event|当地图缩放即将发生时触发。（比如缩放动作开始前）.|
 |zoomend|Event|当地图缩放时触发.|
-|zoomlevelschange|Event|Fired|when|the|number|of|zoomlevels|on|the|map|is|changed|due|to|adding|or|removing|a|layer.|
-|resize|ResizeEvent|Fired|when|the|map|is|resized.|
+|zoomlevelschange|Event|当地图级别由于添加/删除图层改变时触发|
+|resize|ResizeEvent|当地图大小改变时触发 |
 |autopanstart|Event|打开弹出窗口时地图开始自动平移时触发.|
 |layeradd|LayerEvent|当一个新的图层添加到地图上时触发.|
 |layerremove|LayerEvent|当一些图层从地图上移除时触发.|
-|baselayerchange|LayerEvent|当通过layer|control改变基础图层时触发.|
-|overlayadd|LayerEvent|Fired|when|an|overlay|is|selected|through|the|layer|control.|
-|overlayremove|LayerEvent|Fired|when|an|overlay|is|deselected|through|the|layer|control.|
+|baselayerchange|LayerEvent|当通过layer control改变基础图层时触发.|
+|overlayadd|LayerEvent|当通过layer control添加overlay时触发|
+|overlayremove|LayerEvent|当通过layer control移除overlay时触发|
 |locationfound|LocationEvent|当地理寻址成功时触发（使用locate方法）|
 |locationerror|ErrorEvent|当地理寻址错误时触发（使用locate方法）|
 |popupopen|PopupEvent|当弹出框打开时触发（使用openPopup方法）|
@@ -107,18 +105,18 @@ crs|CRS|L.CRS.EPSG3857|使用的坐标系|
 |setView(<LatLng>center,<Number>zoom,<zoom/pan options>options?)|this|设定地图（设定其地理中心和缩放）.|
 |setZoom(<Number>zoom,<zoom options>options?)|this|设定地图的缩放.|
 |zoomIn(<Number>delta?,<zoom options>options?)|this|通过delta变量放大地图的级别，1是delta的默认值.|
-|zoomOut(<Number>delta?,<zoom options>options?)|this|通过delta变量缩小地图的级别，1是delta的默认值.|
-|setZoomAround(<LatLng>latlng,<Number>zoom,<zoom options>options?)|this|Zooms|the|map|while|keeping|a|specified|point|on|the|map|stationary|(e.g.|used|internally|for|scroll|zoom and|double-click|zoom).|
+|zoomOut(<Number>delta?,<zoom options>options?)|this|通过delta变量缩小地图的级别，1是delta的默认值.| 
+|setZoomAround(<LatLng>latlng,<Number>zoom,<zoom options>options?)|this|Zooms the map while keeping a specified point on the map stationary (e.g. used internally for scroll zoom and double-click zoom).| 
 |fitBounds(<LatLngBounds>bounds,<fitBounds options>options?)|this|将地图视图尽可能大地设定在给定的地理边界内.|
 |fitWorld(<fitBounds options>options?)|this|将地图视图尽可能大地设定在包含全部地域的级别上.|
 |panTo(<LatLng>latlng,<pan options>options?)|this|将地图平移到给定的中心。如果新的中心点在屏幕内与现有的中心点不同则产生平移动作.|
 |panInsideBounds(<LatLngBounds>bounds)|this|平移地图到坐落于给定边界最接近的视图内.|
 |panBy(<Point>point,<pan options>options?)|this|通过给定的像素值对地图进行平移.|
 |invalidateSize(<Boolean>options?,<zoom/pan options>options?)|this|检查地图容器的大小是否改变并更新地图，如果是这样的话，在动态改变地图大小后调用，如果animate是true的话，对地图进行更新.|
-|setMaxBounds(<LatLngBounds>bounds,<zoom/pan options>options?)|this|将地图限定在给定的边界内|(map maxBounds).|
+|setMaxBounds(<LatLngBounds>bounds,<zoom/pan options>options?)|this|将地图限定在给定的边界内(map maxBounds).|
 |locate(<Locate options>options?)|this|用地理定位接口Geolocation API获取用户位置信息，在成功定位或定位出错产生locationerror后解除location-found事件与定位数据，且将地图视图设定到检测的确切的用户的位置（如果定位失败则回到地域视图）。在Locate options中有更多详细内容。|
-|stopLocate()|this|Stops|watching|location|previously|initiated|by|map.locate({watch:|true})|and|aborts|resetting|the|map|view|if|map.locate|was|called|with|{setView:|true}.|
-|remove()|this|Destroys|the|map|and|clears|all|related|event|listeners.|
+ stopLocate()|this| Stops watching location previously initiated by map.locate({watch: true}) and aborts resetting the map view if map.locate was called with {setView: true}. |
+ remove()|this| Destroys the map and clears all related event listeners.| 
 
 ##  Methods for Getting Map State（获取地图状态）
 |方法|返回值|描述|
@@ -140,13 +138,12 @@ crs|CRS|L.CRS.EPSG3857|使用的坐标系|
 |removeLayer(<ILayer>layer)|this|将图层在地图上移除.|
 |hasLayer(<ILayer>layer)|Boolean|如果添加的图层是当前图层则返回true.|
 |openPopup(<Popup>popup)|this|当关闭前一个弹出框时弹出指定的对话框。（确定在同一时间只有一个打开并可用）.|
-|openPopup(<String>html<HTMLElement>el,<LatLng>latlng,<Popup options> options?)|this|Creates|a|popup|with|the|specified options|and|opens|it|in|the|given|point|on|a|map.|
-|closePopup(<Popup>popup?)|this|关闭openPopup打开的弹出框.|
+|openPopup(<String>html<HTMLElement>el,<LatLng>latlng,<Popup options> options?)|this|Creates a popup with the specified options and opens it in the given point on a map. |
+|closePopup(<Popup>popup?)|this|关闭openPopup打开的弹出框. |
 |addControl(<IControl>control)|this|在地图上添加控制选项.|
 |removeControl(<IControl>control)|this|在地图上移除控制选项.|
 
-
-##  Conversion Methods（转换方法
+##  Conversion Methods（转换方法）
 |方法|返回值|描述|
 |----|---|----|
 |latLngToLayerPoint(<LatLng>latlng)|Point|返回地图图层上与地理坐标相一致的点。（在地图上进行位置叠加时比较有用）.|
@@ -180,10 +177,11 @@ crs|CRS|L.CRS.EPSG3857|使用的坐标系|
 |enableHighAccuracy|Boolean|false|开启高精度，参加|W3C|SPEC的描述.|
 
 ##  Properties（属性）
-地图属性包括互动操作，允许你在运行环境中互动地控制地图行为，比如通过拖拽和点击缩放级别显示和不显示某要素. Example:
-|map.doubleClickZoom.disable();
-|You can also access default map controls like attribution control through map properties:
-|map.attributionControl.addAttribution("Earthquake data &copy; GeoNames");
+地图属性包括互动操作，允许你在运行环境中互动地控制地图行为，比如通过拖拽和点击缩放级别显示和不显示某要素. 
+Example:
+map.doubleClickZoom.disable();
+You can also access default map controls like attribution control through map properties:
+map.attributionControl.addAttribution("Earthquake data &copy; GeoNames");
 
 |Property|类型|描述|
 |----|---|----|
@@ -193,7 +191,7 @@ crs|CRS|L.CRS.EPSG3857|使用的坐标系|
 |scrollWheelZoom|IHandler|滚动缩放处理程序.|
 |boxZoom|IHandler|矩形框（利用鼠标拖动）缩放处理程序.|
 |keyboard|IHandler|键盘导向处理程序.|
-|tap|IHandler|Mobile|touch|hacks|(quick|tap|and|touch|hold)|handler.|
+|tap|IHandler|Mobile|touch hacks(quick tap and touch hold) handler.|
 |zoomControl|Control.Zoom|缩放控制.|
 |attributionControl|Control.Attribution|属性控制.|
 
