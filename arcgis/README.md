@@ -1,5 +1,5 @@
-#   Arcgis for javascript
-[https://developers.arcgis.com/javascript/latest/index.html](https://developers.arcgis.com/javascript/latest/index.html)  
+#   ArcGIS API for JavaScript
+[https://developers.arcgis.com/javascript/](https://developers.arcgis.com/javascript/)  
     
     
  

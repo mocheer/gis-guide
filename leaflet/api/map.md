@@ -50,7 +50,7 @@
 ##  Control options
 |选项|类型|默认值|描述|
 |----|---|----|----|
-|zoomControl|Boolean|true|确定zoom|control是否默认加载在地图上.|
+|zoomControl|Boolean|true|确定zoom control是否默认加载在地图上.|
 |attributionControl|Boolean|true|确定attribution control是否默认加载在地图上.|
 
 ##  Animation options
@@ -115,8 +115,8 @@
 |invalidateSize(<Boolean>options?,<zoom/pan options>options?)|this|检查地图容器的大小是否改变并更新地图，如果是这样的话，在动态改变地图大小后调用，如果animate是true的话，对地图进行更新.|
 |setMaxBounds(<LatLngBounds>bounds,<zoom/pan options>options?)|this|将地图限定在给定的边界内(map maxBounds).|
 |locate(<Locate options>options?)|this|用地理定位接口Geolocation API获取用户位置信息，在成功定位或定位出错产生locationerror后解除location-found事件与定位数据，且将地图视图设定到检测的确切的用户的位置（如果定位失败则回到地域视图）。在Locate options中有更多详细内容。|
- stopLocate()|this| Stops watching location previously initiated by map.locate({watch: true}) and aborts resetting the map view if map.locate was called with {setView: true}. |
- remove()|this| Destroys the map and clears all related event listeners.| 
+|stopLocate()|this|Stops watching location previously initiated by map.locate({watch: true}) and aborts resetting the map view if map.locate was called with {setView: true}. |
+|remove()|this|Destroys the map and clears all related event listeners.| 
 
 ##  Methods for Getting Map State（获取地图状态）
 |方法|返回值|描述|
@@ -179,9 +179,9 @@
 ##  Properties（属性）
 地图属性包括互动操作，允许你在运行环境中互动地控制地图行为，比如通过拖拽和点击缩放级别显示和不显示某要素. 
 Example:
-map.doubleClickZoom.disable();
-You can also access default map controls like attribution control through map properties:
-map.attributionControl.addAttribution("Earthquake data &copy; GeoNames");
+    map.doubleClickZoom.disable();
+    You can also access default map controls like attribution control through map properties:
+    map.attributionControl.addAttribution("Earthquake data &copy; GeoNames");
 
 |Property|类型|描述|
 |----|---|----|
@@ -191,9 +191,9 @@ map.attributionControl.addAttribution("Earthquake data &copy; GeoNames");
 |scrollWheelZoom|IHandler|滚动缩放处理程序.|
 |boxZoom|IHandler|矩形框（利用鼠标拖动）缩放处理程序.|
 |keyboard|IHandler|键盘导向处理程序.|
-|tap|IHandler|Mobile|touch hacks(quick tap and touch hold) handler.|
-|zoomControl|Control.Zoom|缩放控制.|
-|attributionControl|Control.Attribution|属性控制.|
+|tap|IHandler|Mobile touch hacks(quick tap and touch hold) handler.|
+|zoomControl|Control.Zoom缩放控制.|
+|attributionControl|Control.Attribution属性控制.|
 
 ##  Map Panes(地图窗口)
 望文思义，这是一个包括可以用来放置自定义图层的不同的地图窗口的对象。最大的区别是图层的叠置.
