@@ -4,14 +4,14 @@
 
 或有错误，敬请指教。
 
-##  框架
+##  Web框架
 -   [Leaflet](https://github.com/Leaflet/Leaflet)
 -   [ArcGIS API for JavaScript](https://www.gitbook.com/download/epub/book/mch/gis-guide)
 -   [Super Map](https://github.com/SuperMap/iClient-for-JavaScript)
 
 ###  下载
 -   [PDF](https://www.gitbook.com/download/pdf/book/mch/gis-guide)
--   [EPUB](https://www.gitbook.com/download/epub/book/mch/gis-guide)
+-   [ePub](https://www.gitbook.com/download/epub/book/mch/gis-guide)
 -   [Mobi](https://www.gitbook.com/download/mobi/book/mch/gis-guide)
 
 

@@ -1,13 +1,13 @@
 # Summary
 
 - [1. Gis 基础](base/README.md)
-    - [1.1 地理坐标系](base/geoCoordinate.md)
+    - [1.1 地理坐标系](base/geoCoordinates.md)
     - [1.2 投影坐标系](base/projectionCoordinates.md)
     - [1.3 瓦片坐标系](base/tileCoordinates.md)
     - [1.4 谷歌地图](base/googleMap.md)
     - [1.5 百度地图](base/baiduMap.md)
     - [1.6 必应地图](base/bingMap.md)
-    - [1.7 OpenStreetMap](base/openStreetMap.md)
+    - [1.7 OpenStreetMap](base/osm.md)
     - [1.8 其他](base/other.md)
 - [2. ArcGIS API for JavaScript开发](arcgis/README.md)
     - [2.1 Examples](arcgis/arcgis-examples.md)
