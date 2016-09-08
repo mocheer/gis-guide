@@ -1,11 +1,6 @@
 #   L.Map
     L.Map(<HTMLElement String> id, <Map options>options?)  
     通过div元素和带有地图选项的描述的文字对象来实例化一个地图对象，其中文字对象是可选的。 
-##  examples
-    var map = L.map('map', {
-        center: [51.505, -0.09],
-        zoom: 13
-    });
 ##  TODO
     Zoom options
     FitBounds options
