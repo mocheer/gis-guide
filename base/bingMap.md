@@ -2,10 +2,6 @@
 
 ![Alt text](../assets/14.jpg)
     
-0    1
-
-2    3
-
 瓦片地址格式：http://r1.tiles.ditu.live.com/tiles/r132122232001311321.png?g=100&mkt=zh-cn
 
 级数：[1-18] 

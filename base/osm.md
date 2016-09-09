@@ -5,10 +5,6 @@ OSM的地图由用户根据手提GPS装置、航空摄影照片、其他自由�
 
 ![Alt text](../assets/4.png)
 
-(1,0,0)      (1,1,0)
-
-(1,0,1)      (1,1,1)
-
 瓦片地址格式：http://a.tile.openstreetmap.org/9/420/193.png
 
 Cycle Map：http://c.tile.opencyclemap.org/cycle/9/420/193.png
@@ -17,7 +13,7 @@ Transport Map：http://b.tile2.opencyclemap.org/transport/9/420/193.png
 
 MapQuest Map：http://otile3.mqcdn.com/tiles/1.0.0/osm/9/420/193.png
 
-z: [0-18]    x,y: [0-]
+z: [0-18]    x,y: [0-2^z-1]
 
 在第z级别，x,y方向的瓦片个数均为：
 

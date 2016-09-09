@@ -1,14 +1,10 @@
 #   Google Map
 
 ![Alt text](../assets/7.png)
-    
-(0,0,1)    (1,0,1)
-
-(0,1,1)    (1,1,1)
 
 瓦片地址格式：http://mt2.google.cn/vt/lyrs=m@167000000&hl=zh-CN&gl=cn&x=420&y=193&z=9 
 
-z: [0-18]    x,y: [0-]
+z: [0-18]    x,y: [0-2^2-1]
 
 地图图层说明：
 
