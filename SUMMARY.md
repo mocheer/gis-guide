@@ -8,7 +8,7 @@
     - [1.5 百度地图](base/baiduMap.md)
     - [1.6 天地图](base/tiandiMap.md)
     - [1.7 高德地图](base/gaodeMap.md)
-    - [1.8 腾旭地图](base/tencentMap.md)
+    - [1.8 腾讯地图](base/tencentMap.md)
     - [1.9 必应地图](base/bingMap.md)
     - [1.10 OpenStreetMap](base/osm.md)
     - [1.11 其他](base/other.md)
