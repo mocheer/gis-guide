@@ -1,4 +1,4 @@
-#   tiandiMap
+#   TianDi Map
 
 
 |地图类型|服务类型|显示级别|服务调用地址|
