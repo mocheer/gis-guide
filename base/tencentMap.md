@@ -7,3 +7,14 @@
     腾讯瓦片计算方法：URL = z  /  Math.Floor(x / 16.0)  / Math.Floor(y / 16.0) / x_y.png，其中x,y,z为TMS瓦片坐标参数。
 
 5. 与Google瓦片坐标的关系，上式中腾讯地图瓦片坐标的x,z与Google 瓦片坐标系的X 、Z是相等的，Y 的转换关系为：Y(Tencent) +  Y(Google) = Math.pow(2，zoom) - 1
+
+##  瓦片加载示例
+http://p3.map.gtimg.com/maptilesv2/18/13383/9245/214130_147931.png?version=20130701 
+
+    int x = 214130;
+    int y = 114212;
+    int z = 18;
+    y = int.Parse( Math.Pow(2, z).ToString()) - 1 - y;
+    string url = z.ToString() + "/" + Math.Floor(x / 16.0).ToString() + "/" 
+        + Math.Floor(y / 16.0).ToString()  + "/" + x.ToString() + "_" 
+        + y.ToString() + ".png"; //计算结果：18/13383/9245/214130_147931.png
