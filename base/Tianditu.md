@@ -1,5 +1,4 @@
-#   TianDi Map
-
+#   Tianditu
 
 |地图类型|服务类型|显示级别|服务调用地址|
 |-------|-------|-------|-----------|
@@ -24,4 +23,3 @@ http://t{0}.tianditu.cn/DataServer?T=vec_c&X={1}&Y={2}&L={3}
 
 ##  其他格式：
 http://t{0}.tianditu.com/img_w/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=img&STYLE=default&TILEMATRIXSET=w&TILEMATRIX={3}&TILEROW={2}&TILECOL={1}&FORMAT=tiles
-

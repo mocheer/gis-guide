@@ -14,7 +14,7 @@ z: [3-19]    x,y:
 
 ![Alt text](../assets/10.png)
 
-图图层说明：
+图层说明：
 
 type=web 地图   http://shangetu0.map.bdimg.com/it/u=x=101237;y=37702;z=19;v=017;type=web&fm=44&udt=20130712
 
