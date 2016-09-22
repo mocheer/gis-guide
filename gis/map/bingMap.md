@@ -1,6 +1,6 @@
 #   Bing Map
 
-![Alt text](../assets/14.jpg)
+![Alt text](../../assets/14.jpg)
     
 瓦片地址格式：http://r1.tiles.ditu.live.com/tiles/r132122232001311321.png?g=100&mkt=zh-cn
 
@@ -10,5 +10,5 @@
 
 只需先计算出与x,y,z的关系，然后再套用openstreetmap的公式，就可以得到。
 
-![Alt text](../assets/15.png)
+![Alt text](../../assets/15.png)
 
