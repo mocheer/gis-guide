@@ -1,8 +1,9 @@
 #   gis-manual
 [GitHub](https://github.com/mocheer/gis-manual) 
 [GitBook](https://www.gitbook.com/book/mch/gis-manual/details)
+[Gogs](https://try.gogs.io/mocheer/gis-manual)
 
-在进行gis开发的同时，或查阅翻译，或个人见解所整合而成的开发手册。
+在进行gis开发的同时，或查阅资料，或翻译文档，或个人见解所整合而成的开发手册。
 
 若有错误，敬请指教。
 

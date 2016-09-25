@@ -6,6 +6,10 @@ SRID：空间参考标识符 (SRID) 是与特定坐标系、容差和分辨率�
 
 WKT：(well-known binary)是一种文本标记语言，用于表示矢量几何对象、空间参照系统及空间参照系统之间的转换。它的二进制表示方式，亦即WKB(well-known binary)则胜于在传输和在数据库中存储相同的信息。该格式由开放地理空间联盟(OGC)制定。
 
+PPI（Pixel Per Inch）是指每英寸包含的像素数
+
+DPI（Dot Per Inch），是指每英寸打印的点数，随着数字化的输入输出设备的发展，很多人也把数字图像的解析度用DPI来表示。常见的dpi有96dpi、72dip
+
 #   其他
 -   [https://github.com/mocheer/map](https://github.com/mocheer/map) 
     Web墨卡托投影的实现

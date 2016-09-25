@@ -3,7 +3,7 @@
 
 切片主要有：TMS、WMTS和WMS。
 
-![Alt text](../assets/3.png "TMS")
+![](../assets/3.png "TMS")
 
 ##  其他
 开源与成熟商业的瓦片地图服务（TMS/WMTS），都有如下共同的特性，基本成为了标准：
@@ -12,9 +12,9 @@
 
 (2) 投影：墨卡托投影（Marcator，正轴等角圆柱投影）
 
-![Alt text](../assets/16.png "Web墨卡托投影")
+![](../assets/16.png "Web墨卡托投影")
 -------------------------------------------
-![Alt text](../assets/17.png "Web墨卡托投影")
+![](../assets/17.png "Web墨卡托投影")
 
 注：均为弧度。
 
