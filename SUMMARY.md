@@ -11,7 +11,7 @@
     - [1.3 瓦片坐标系](gis/tcs.md)
     - [1.4 像素坐标系](gis/pxcs.md)
     - [1.5 垂直坐标系](gis/vcs.md)
-    - [1.6 OGC](gis/ogc.md)
+    - [1.6 OGC及其标准](gis/ogc.md)
         - [1.6.1 WKT](gis/ogc-sandards/wkt.md)
         - [1.6.2 WKB](gis/ogc-sandards/wkb.md)
         - [1.6.1 WMS](gis/ogc-sandards/wms.md)

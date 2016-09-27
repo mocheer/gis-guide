@@ -38,6 +38,3 @@
 |Web Map Tile Service|WMTS|切片地图Web服务|
 |Sensor Processing Service|WPS|地理处理Web服务|
 |Sensor Service Common|OWS|描述了OGC Web服务的通用规范|
-
-## 参考
-- http://blog.csdn.net/warrenwyf/article/details/5711482

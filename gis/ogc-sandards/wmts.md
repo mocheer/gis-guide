@@ -8,35 +8,35 @@ WMTS操作：
 |参数|是否必须|默认值|
 |----|------|------|
 |SERVICE|是|WMTS|
-|REQUEST=GetCapabilities|是|
+|REQUEST=GetCapabilities|是||
 
 2. GetTile（获取瓦片）
 
 |参数|是否必须|默认值|
 |----|------|------|
 |SERVICE|是|WMTS|
-|REQUEST=GetTile|是|
+|REQUEST=GetTile|是||
 |VERSION|是|1.0.0|
-|LAYER|是|
-|STYLE|是|
-|FORMAT|是| 
-|TILEMATRIXSET|是|
-|TILEMATRIX|是|
-|TILEROW|是|
-|TILECOL|是|
-|Sample dimensions参数|
+|LAYER|是||
+|STYLE|是||
+|FORMAT|是| |
+|TILEMATRIXSET|是||
+|TILEMATRIX|是||
+|TILEROW|是||
+|TILECOL|是||
+|Sample dimensions参数|||
      
 3. GetFeatureInfo（可选，获取点选的要素信息）
 
 |参数|是否必须|默认值|
 |----|------|------|
 |SERVICE|是|WMTS|
-|REQUEST=GetFeatureInfo|是|
+|REQUEST=GetFeatureInfo|是||
 |VERSION|是|1.0.0|
-|GetTile请求参数|
-|I|是| 
-|J|是|
-|INFOFORMAT|是|
+|GetTile请求参数|||
+|I|是| |
+|J|是| |
+|INFOFORMAT|是| |
 
 WMTS有三种服务：
 - KVP

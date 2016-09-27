@@ -12,9 +12,9 @@ GML 用于空间数据传输与转换的地理信息标记语言
 
 #   其他
 -   [https://github.com/mocheer/map](https://github.com/mocheer/map) 
-    Web墨卡托投影的实现
+    Web墨卡托投影和高斯-克里格投影的实现
 -   [https://github.com/mocheer/react-map](https://github.com/mocheer/react-map) 
-    基于react，一个简单的地图框架
+    基于react，一个简单的地图框架(好吧，目前还什么都没有)
 -   [https://github.com/wandergis/coordtransform](https://github.com/wandergis/coordtransform)
     wgs84坐标和火星坐标、百度坐标之间的转换
 
