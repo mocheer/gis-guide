@@ -7,11 +7,6 @@
 
 若有错误，敬请指教。
 
-### map framework
--   [Leaflet](https://github.com/Leaflet/Leaflet)
--   [ArcGIS API for JavaScript](https://www.gitbook.com/download/epub/book/mch/gis-manual)
--   [Super Map](https://github.com/SuperMap/iClient-for-JavaScript)
-
 ### download
 -   [PDF](https://www.gitbook.com/download/pdf/book/mch/gis-manual)
 -   [ePub](https://www.gitbook.com/download/epub/book/mch/gis-manual)
