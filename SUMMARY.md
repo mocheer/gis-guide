@@ -1,6 +1,6 @@
 # Summary
 
-- [1. 坐标系](gis/README.md)
+- [1. 坐标系](README.md)
   - [1.1 地理坐标系](gis/gcs.md)
   - [1.2 投影坐标系](gis/pcs.md)
     - [1.2.1 墨卡托投影](gis/projection/mercator.md)
