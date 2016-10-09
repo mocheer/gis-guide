@@ -20,7 +20,7 @@ x(UTM) = 0.9996 * (高斯)  和 y(UTM) = 0.9996 * (高斯)
 
 UTM投影与Gauss-Krüger投影的x和y坐标是相反的，即UTM投影中x和y分别为经向和纬向数值，而Gauss-Krüger投影中x和y分别为纬向和经向数值。具体原因源自于其投影数学公式。
 
-##  [常用的投影坐标系](https://developers.arcgis.com/javascript/3/jshelp/pcs.html)
+##  [常用投影坐标系](https://developers.arcgis.com/javascript/3/jshelp/pcs.html)
 |name|GCS|EPSG Code|EPSG Code(内部)|remark|
 |----|---|---------|--------------|------|
 |WGS_1984_Web_Mercator_Auxiliary_Sphere|GCS_WGS_1984|3857|102100|900913(谷歌)|
