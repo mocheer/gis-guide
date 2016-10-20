@@ -27,10 +27,4 @@ GML 用于空间数据传输与转换的地理信息标记语言
 - [http://www.softpedia.com/progDownload/Tile-Downloader-Download-198232.html](http://www.softpedia.com/progDownload/Tile-Downloader-Download-198232.html)
 - [http://sourceforge.net/projects/tiledownloader/files/1.3/release1.3-bin.zip/download](http://sourceforge.net/projects/tiledownloader/files/1.3/release1.3-bin.zip/download)
 
-坐标转换工具
-
-- [http://rovertang.com/labs/tileindex/](http://rovertang.com/labs/tileindex/) 
-- [http://rovertang.com/archives/545](http://rovertang.com/archives/545) 
-- [http://rovertang.com/labs/GMAPIv3_Offline/](http://rovertang.com/labs/GMAPIv3_Offline/) 
-
 公式&代码实现：http://wiki.openstreetmap.org/wiki/Slippy_map_tilenames
