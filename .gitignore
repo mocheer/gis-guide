@@ -16,4 +16,4 @@ _book
 *.pdf
 
 # 拓展
-!doc/*
+!gis/doc/*
