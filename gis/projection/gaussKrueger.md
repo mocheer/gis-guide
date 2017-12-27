@@ -51,9 +51,3 @@ iserver北京超图发布的高斯投影地图接入所需参数：
 - centralMeridian(中央子午线)
 - leftBottom(左下)
 - rightTop(右上)
-
-
-
-
-
-

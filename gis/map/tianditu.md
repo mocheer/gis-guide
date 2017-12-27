@@ -19,7 +19,9 @@ _w为墨卡托投影
 
 瓦片地址如下（以矢量底图为例）:
 
-http://t{0}.tianditu.cn/DataServer?T=vec_c&X={1}&Y={2}&L={3}
+3857:
+- http://t{s}.tianditu.cn/DataServer?T=vec_c&X={1}&Y={2}&L={3}
 
-##  其他格式：
-http://t{0}.tianditu.com/img_w/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=img&STYLE=default&TILEMATRIXSET=w&TILEMATRIX={3}&TILEROW={2}&TILECOL={1}&FORMAT=tiles
+4326
+- http://t{s}.tianditu.com/cva_c/wmts/{z}/{y}/{x} ? 有误
+- http://t{s}.tianditu.com/img_w/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=img&STYLE=default&TILEMATRIXSET=w&TILEMATRIX={3}&TILEROW={2}&TILECOL={1}&FORMAT=tiles

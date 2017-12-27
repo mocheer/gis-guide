@@ -38,6 +38,9 @@ type=sate 卫星图  http://shangetu1.map.bdimg.com/it/u=x=101237;y=37702;z=19;v
 ![](../../assets/13.png)
 
 
+- 百度地图的数据主要来自四维图新和道道通,当然也有其他来源,甚至有少量的自产数据。
+
+
 
 
 
