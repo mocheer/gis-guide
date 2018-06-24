@@ -11,3 +11,9 @@
 - [PDF](https://www.gitbook.com/download/pdf/book/mch/gis-manual)
 - [ePub](https://www.gitbook.com/download/epub/book/mch/gis-manual)
 - [Mobi](https://www.gitbook.com/download/mobi/book/mch/gis-manual)
+
+### @see
+- [QGIS](https://www.qgis.org/en/site/)
+- [GeoTool](http://www.geotools.org/)
+- ArcGIS
+- 智图
