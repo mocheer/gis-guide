@@ -42,4 +42,36 @@ WMTS有三种服务：
 - KVP
 - SOAP
 - RESTful
+
+
+```js
+// wmts 默认参数
+var defaultWmtsParams = {
+  service: 'WMTS',
+  request: 'GetTile',
+  version: '1.0.0',
+  layer: '',
+  style: '',//default
+  tilematrixSet: '',//TileMatrixSet0
+  format: 'image/jpeg',
+  width:256,
+  height:256,
+  max:function(crs){
+    var matrixIds = [];
+    var xy;
+    switch (crs) {
+      case 4326:
+        xy = [90, -180]
+        break;
+      default:
+        xy = [20037508.3428, -20037508.3428]
+        break;
+    }
+    for (var i = 0; i < 22; i++) {
+      matrixIds.push({ z: '' + i, xy: xy })
+    }
+    return matrixIds;
+  }()
+}
+```
  
